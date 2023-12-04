@@ -149,10 +149,14 @@
         flex-direction: column;
         gap: 4.8rem;
     }
-    
+
 
     .main-nav-link:link,
     .main-nav-link:visited {
         font-size: 3rem;
     }
 }
+
+/* *************************************** */
+/* Responding to Smaller Tablets */
+/* *************************************** */

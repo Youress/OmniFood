@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
   </head>
   <body>
     <header class="header">
@@ -27,6 +28,10 @@
           <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <main>
       <section class="section-hero">
@@ -534,9 +539,21 @@
             <img class="logo" src="./img/omnifood-logo.png" alt="OmniFood" />
           </a>
           <ul class="social-links">
-            <li><a class="footer-link"  href="#"><ion-icon  class="social-icon" name="logo-instagram"></ion-icon></a></li>
-            <li><a class="footer-link" cla href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
-            <li><a class="footer-link" cla href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" cla href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" cla href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
           </ul>
           <p class="copright">
             Copyright &copy; 2027 by Omnifood,Inc. All rights reerved
@@ -546,9 +563,13 @@
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
             <p>Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
-            <p><a class="footer-link"  href="tel:415-201-6370">415-201-6370</a></p>
             <p>
-             <a class="footer-link" href="mailto:hello@omnifood.com">hello@omnifood.com</a>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a>
+            </p>
+            <p>
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@omnifood.com</a
+              >
             </p>
           </address>
         </div>
@@ -558,7 +579,7 @@
             <li><a class="footer-link" href="#">About Omnifood </a></li>
             <li><a class="footer-link" href="#">For Business</a></li>
             <li><a class="footer-link" href="#">Cooking partners</a></li>
-            <li><a  class="footer-link"href="#">Careers</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
           </ul>
         </nav>
         <nav class="nav-col">
@@ -566,8 +587,8 @@
           <ul class="footer-nav">
             <li><a class="footer-link" href="#">Create account</a></li>
             <li><a class="footer-link" href="#">Sign in</a></li>
-            <li><a class="footer-link"href="#">iOS app</a></li>
-            <li><a class="footer-link"href="#">Android app</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
           </ul>
         </nav>
 
@@ -576,7 +597,7 @@
           <ul class="footer-nav">
             <li><a class="footer-link" href="#">Recipe directory</a></li>
             <li><a class="footer-link" href="#">Help center</a></li>
-            <li><a class="footer-link"href="#">Privacy & terms</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
           </ul>
         </nav>
       </div>
@@ -590,5 +611,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="main.js"></script>
   </body>
 </html>

@@ -12,6 +12,7 @@ body{
   background-color: #fdf2e9;
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -57,8 +58,23 @@ body{
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
+/* MOBILE NAV BTN */
+.btn-mobile-nav{
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  display: none;
 
+}
+.icon-mobile-nav{
+height: 4.8rem;
+width: 4.8rem;
+color: #333;
+}
 
+.icon-mobile-nav[name="close-outline"]{
+  display: none;
+}
 /* *************************************** */
 /* Hero Section */
 /* *************************************** */
@@ -70,7 +86,7 @@ body{
 }
 
 .hero {
-  max-width: 120rem;
+  max-width: 130rem;
   padding: 0 3.2rem;
   margin: 0 auto;
   display: grid;
